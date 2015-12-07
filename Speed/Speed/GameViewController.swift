@@ -110,11 +110,11 @@ class GameViewController: UIViewController {
             button.addGestureRecognizer(hold)
         case "Black":
             button.addTarget(self, action: "Black:", forControlEvents: .TouchUpInside)
-        case "Bomb":
+        /*case "Bomb":
             button.setImage(bomb, forState: .Normal)
             button.addTarget(self, action: "Bomb:", forControlEvents: .TouchUpInside)
             NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector("RemoveBomb"), userInfo: nil, repeats: false)
-            // but how does this function access button?
+            // but how does this function access button?*/
         case "Blue":
             button.addTarget(self, action: "Blue:", forControlEvents: .TouchDragOutside)
         default:
