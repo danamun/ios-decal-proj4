@@ -22,6 +22,7 @@ ios-decal-proj4
 		* Blue means drage outwards. + 5 pts.    
     * You level up in the game whenever you break the 1500 mark at the current level.  
     * You can tweet your scores.
+
 ## Control Flow
     You go in and will see a start button, timer, points, and the grid. 
     Once you play start, you play the game and accumulate as many points as possible as the timer ticks on. 
